@@ -77,13 +77,15 @@ public abstract class HandledScreenMixin<T extends ScreenHandler> extends Screen
     private void onInit(CallbackInfo info) {
         RocketCrafter rocketCrafter = Modules.get().get(RocketCrafter.class);
 
-        if(getScreenHandler().getType() == ScreenHandlerType.CRAFTING)
-			addDrawableChild(
+        //if(getScreenHandler().getType() == ScreenHandlerType.GENERIC_3X3){
+            addDrawableChild(
                 new ButtonWidget.Builder(Text.literal("CraftRockets"), button -> rocketCrafter.craft(getScreenHandler()))
                     .position(x + 84, y - 22)
                     .size(80, 20)
                     .build()
             );
+        //}
+			
         
     }
 
