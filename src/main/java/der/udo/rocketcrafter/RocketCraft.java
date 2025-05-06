@@ -19,12 +19,12 @@ import der.udo.rocketcrafter.modules.RocketCrafter;
 
 public class RocketCraft extends MeteorAddon {
     public static final Logger LOG = LogUtils.getLogger();
-    public static final Category CATEGORY = new Category("Example");
-    public static final HudGroup HUD_GROUP = new HudGroup("Example");
+    public static final Category CATEGORY = new Category("Crafter");
+    public static final HudGroup HUD_GROUP = new HudGroup("Crafter");
 
     @Override
     public void onInitialize() {
-        LOG.info("Initializing Meteor Addon Template");
+        LOG.info("Initializing Meteor Rocket Crafter");
 
         // Modules
         Modules.get().add(new RocketCrafter());

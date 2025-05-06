@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "rocket-crafter",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "Rocket Crafter",
+  "description": "An Rocket Crafter for Meteor Client addons.",
   "authors": [
     "seasnail"
   ],
@@ -17,7 +17,6 @@
       "der.udo.rocketcrafter.RocketCraft"
     ]
   },
-  "accessWidener": "rocket-crafter.accesswidener",
   "mixins": [
     "rocket-crafter.mixins.json"
   ],
