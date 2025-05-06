@@ -33,7 +33,7 @@ A template to allow easy usage of the Meteor Addon API.
 │       │               │   ╰── HudExample
 │       │               │── modules
 │       │               │   ╰── ModuleExample
-│       │               ╰── AddonTemplate
+│       │               ╰── RocketCraft
 │       ╰── resources
 │           │── assets
 │           │   ╰── template
@@ -70,16 +70,12 @@ Here is a brief explanation of the ones you might need to modify:
       You can add your own mixins in the `client` array.
     - `fabric.mod.json`: Contains the metadata of the addon.  
       Edit the various fields to reflect the metadata of your addon.
-- `build.gradle.kts`: Contains the Gradle build script.  
+- `build.gradle`: Contains the Gradle build script.  
   You can manage the dependencies of the addon here.  
   Remember to keep the `fabric-loom` version up-to-date.
-- `gradle.properties.kts`: Contains the properties of the Gradle build.  
+- `gradle.properties`: Contains the properties of the Gradle build.  
   These will be used by the build script.
 - `LICENSE`: Contains the license of the addon.  
   You can edit this file to change the license of your addon.
 - `README.md`: Contains the documentation of the addon.  
   You can edit this file to reflect the documentation of your addon, and showcase its features.
-
-## License
-
-This template is available under the CC0 license. Feel free to use it for your own projects.
